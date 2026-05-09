@@ -82,4 +82,17 @@ def check_plane(check_list):
     
                                           
 check_plane(failed_fligth_check_list)
+'''
+Результат:
+Flight prohibited, there is a malfunction
+Inspection report:
+['Pumps: True', 'Engine oil: True', 'Flaps: False', 'Breaking: True', 'Avionics: True', 'Landing: True']
+'''
+
 check_plane(fligth_check_list)
+'''
+Результат:
+Plane ready to flight
+Inspection report:
+['Pumps: True', 'Engine oil: True', 'Flaps: True', 'Breaking: True', 'Avionics: True', 'Landing: True']
+'''
